@@ -10,5 +10,6 @@
 			<td> <a href="<%= url.short_url %>"><%= url.short_url %></a></td>
 			<td> <%= link_to 'Show', url_path(url) %> </td>
 		</tr>
-	<% end %>	
+	<% end %>
+	<%= link_to "Shorten a URL!", new_url_path %>	
 </table>
